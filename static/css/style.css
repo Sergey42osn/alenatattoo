@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.dF{
+    display: flex;
+}
+.fDc{
+    flex-direction: column;
+}
+.w100{
+    width: 100%;
+}
+.jCc{justify-content: center;}
+.aIc{
+    align-items: center;
+}
+.mW770{
+    max-width: 770px;
+}
+.main {
+    display: flex;
+    min-height: 100vh;
+  }
+.w_container {
+    display: flex;
+    width: 100%;
+    padding: 0 10px;
+  }

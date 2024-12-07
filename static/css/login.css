@@ -1,0 +1,30 @@
+.form_login {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+.ajax_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+  .ajax_error {
+    color: red;
+  }
+  .box_row {
+    display: flex;
+    justify-content: center;
+  }
+.ajax:before{
+    content: '';
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    opacity: 0.6;
+    cursor: wait;
+}

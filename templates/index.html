@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="main">
+        <div class="w_container">
+            <div class="w_row dFr w100">
+                <div class="w_row_content dF fDc aIc">
+                    <h1>Тестовое приложение</h1>
+                    <img src="{{ url_for('static', filename='bot.png') }}" alt="123">
+                    <p></p>
+                    <button class="btn">Кнопка</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
