@@ -3,11 +3,17 @@
     var MAIN = {
 
         tg: null,
-        remove_record: null,
+        select_time: null,
+        select_service: null,
 
         page_serche_event: function(){
 
-            MAIN.remove_record.addEventListener("click", function(e){
+            MAIN.select_time.addEventListener("click", function(e){
+                e.preventDefault();
+                console.log(this)
+            });
+
+            MAIN.select_service.addEventListener("click", function(e){
                 e.preventDefault();
                 console.log(this)
             });
@@ -20,7 +26,8 @@
 
             MAIN.tg = window.Telegram.WebApp;
 
-            MAIN.remove_record = document.getElementById('remove_record');
+            MAIN.select_time = document.getElementById('select_time');
+            MAIN.select_service = document.getElementById('select_service');
 
             this.page_serche_event();
                 
